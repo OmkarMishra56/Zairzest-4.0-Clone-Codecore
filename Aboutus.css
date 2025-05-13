@@ -1,0 +1,156 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Main CSS */
+body {
+  background-color: #111111;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 64px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links > li {
+  margin-left: 80px;
+}
+
+.nav-links > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #111;
+  color: white;
+  line-height: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 2rem 0;
+  background-color: #111;
+}
+
+.intro h1 {
+  color:#FFFFFF;
+  height:53px;
+  width:1130.4638671875px;
+  font-size:48px;
+  font-weight:700px;
+  letter-spacing:-2%;
+  line-height: 110.00000000000001%;
+  margin-bottom: 53px;
+}
+
+.intro p {
+    color:#CBCBCB;
+  letter-spacing: 0%;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  
+}
+
+.image-gallery {
+    align-items: start;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 2rem;
+}
+
+.image-gallery img {
+    width: ;
+    height:270px;
+    width:396px;
+    border-radius:0px;
+    object-fit: cover;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 500px;
+}
+
+.footer-left h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-left p,
+.footer-left address {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.socials a {
+  margin-left: 10px;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+}
